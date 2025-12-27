@@ -66,11 +66,27 @@ print(age>=18?'Allow':'notAllow');
   });
 }
 
+void changeForEach(Iterable<int> numbers){
+
+
+  for (var num in numbers) {
+
+    if(num>100){
+      break;
+    }
+    print(num);
+    
+  }
+}
+
+
+
 
 
 
 
 
 }
+
 
 
